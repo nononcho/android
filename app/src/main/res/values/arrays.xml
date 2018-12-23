@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="habit">
+        <item>수영</item>
+        <item>등산</item>
+        <item>독서</item>
+    </string-array>
+</resources>

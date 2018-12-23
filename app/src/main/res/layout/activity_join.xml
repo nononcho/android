@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".join.JoinActivity"
+    android:orientation="vertical">
+
+    <!--이름-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        
+        <TextView style="@style/join_tv_title"
+            android:text="@string/user_name"/>
+
+        <EditText style="@style/join_et_widget"
+            android:id="@+id/et_name"/>
+    </LinearLayout>
+
+    <!--나이-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView style="@style/join_tv_title"
+            android:text="@string/user_age"/>
+
+        <EditText style="@style/join_et_widget"
+            android:id="@+id/et_age"/>
+    </LinearLayout>
+
+    <!--취미-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView style="@style/join_tv_title"
+            android:text="@string/user_habit"/>
+
+        <Spinner
+            android:id="@+id/spin_habit"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:entries="@array/habit">
+        </Spinner>
+    </LinearLayout>
+
+    <!--성별-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView style="@style/join_tv_title"
+            android:text="@string/user_sex"/>
+
+        <RadioGroup
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/rb_1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:checked="true"
+                android:text="@string/user_woman"/>
+
+            <RadioButton
+                android:id="@+id/rb_2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/user_man"/>
+        </RadioGroup>
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:onClick="clkJoin"
+        android:text="@string/join"/>
+        <!-- layout_gravity : 내 자신이 부모의 공간안에서 자리하고 싶을 때
+             gravity : 부모의 공간안에서 자식 요소들이 자리할 때 -->
+</LinearLayout>

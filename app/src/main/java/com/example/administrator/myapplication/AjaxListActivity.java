@@ -40,6 +40,7 @@ public class AjaxListActivity extends AppCompatActivity {
         listview.setAdapter(adapter);
 
 
+
         //통신부분(가료가져오는 부분) - start
         BitcoinService service = APIClient.getClient().create(BitcoinService.class);
         Call<BitcoinListVO> call = service.getBitcoin();

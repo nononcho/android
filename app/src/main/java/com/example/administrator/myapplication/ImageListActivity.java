@@ -27,11 +27,13 @@ public class ImageListActivity extends AppCompatActivity {
         ImageTitleVO vo2 = new ImageTitleVO("https://travelblog.expedia.co.kr/wp-content/uploads/2016/12/08.jpg", "비행기");
         ImageTitleVO vo3 = new ImageTitleVO("http://hello-e1.com/wp-content/uploads/2016/05/%EB%AD%94%EA%B0%80-%EB%82%A8%EB%8A%94-%EC%97%AC%ED%96%89-%ED%95%98%EB%8A%94-3%EA%B0%80%EC%A7%80-%EB%B0%A9%EB%B2%95-1024x683.jpg", "YOLO");
         ImageTitleVO vo4 = new ImageTitleVO("https://wonderfulmind.co.kr/wp-content/uploads/2018/05/travel-alone-600x336.jpg", "YOLO2");
+        ImageTitleVO vo6 = new ImageTitleVO("https://wonderfulmind.co.kr/wp-content/uploads/2018/05/travel-alone-600x336.jpg", "YOLO2");
 
         list.add(vo1);
         list.add(vo2);
         list.add(vo3);
         list.add(vo4);
+        list.add(vo6);
 
         list.add(new ImageTitleVO("https://wonderfulmind.co.kr/wp-content/uploads/2018/05/travel-alone-600x336.jpg", "YOLO3"));
     }

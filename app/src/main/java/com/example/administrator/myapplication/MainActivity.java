@@ -41,6 +41,9 @@ public class MainActivity extends AppCompatActivity {
             case  R.id.btn_imageView:
                 intent = new Intent(MainActivity.this, ImageViewActivity.class);
                 break;
+            case R.id.btn_sqlite:
+                intent = new Intent(MainActivity.this, SqlActivity.class);
+                break;
         }
 
         if (intent != null ) {

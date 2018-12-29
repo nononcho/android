@@ -35,6 +35,8 @@ public class AjaxListActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_ajax_list);
 
+        setTitle(R.string.title_ajaxlist);
+
         adapter = new BitcoinAdapter(this, list);
         listview = findViewById(R.id.listview);
         listview.setAdapter(adapter);

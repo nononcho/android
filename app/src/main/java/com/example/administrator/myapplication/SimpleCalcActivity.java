@@ -18,6 +18,8 @@ public class SimpleCalcActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_simple_calc);
 
+        setTitle(R.string.title_calc);
+
         num_1 = findViewById(R.id.num_1);
         num_2 = findViewById(R.id.num_2);
         result = findViewById(R.id.result);

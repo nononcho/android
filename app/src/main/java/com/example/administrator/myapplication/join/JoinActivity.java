@@ -25,6 +25,8 @@ public class JoinActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_join);
 
+        setTitle(R.string.title_join);
+
 //        getString(R.string.app_name);
         et_name = findViewById(R.id.et_name);
         et_age = findViewById(R.id.et_age);

@@ -1,4 +1,8 @@
 <resources>
+    <string name="title_calc">계산기</string>
+    <string name="title_join">회원가입</string>
+    <string name="title_ajaxlist">AJAXLIST</string>
+
     <string name="app_name">My Application</string>
     <string name="user_name">이름</string>
     <string name="user_age">나이</string>
@@ -10,4 +14,5 @@
     <string name="back">뒤로가기</string>
 
     <string name="title_imageview">이미지뷰</string>
+    <string name="title_sql">SQLite</string>
 </resources>

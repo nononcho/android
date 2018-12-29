@@ -23,7 +23,9 @@
         <activity android:name=".join.JoinResultActivity" />
         <activity android:name=".AjaxListActivity" />
         <activity android:name=".ImageViewActivity" />
-        <activity android:name=".ImageListActivity"></activity>
+        <activity android:name=".ImageListActivity" />
+        <activity android:name=".SqlActivity" />
+        <activity android:name=".SqlListActivity"></activity>
     </application>
 
 </manifest>

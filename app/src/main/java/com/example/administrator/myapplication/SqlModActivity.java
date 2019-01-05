@@ -88,7 +88,7 @@ public class SqlModActivity extends AppCompatActivity {
         int count = db.update( UserEntry.T_NM, values, selection, selectionArgs);
 
         finish();
-
+ 
     }
 
 }

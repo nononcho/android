@@ -26,6 +26,7 @@
         <activity android:name=".ImageListActivity" />
         <activity android:name=".SqlActivity" />
         <activity android:name=".SqlListActivity"></activity>
+        <activity android:name=".SqlModActivity" />
     </application>
 
 </manifest>

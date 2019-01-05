@@ -35,6 +35,12 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"/>
 
+        <Button
+            android:id="@+id/btn_mod"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sql_user_alter"/>
+
     </LinearLayout>
 
     <LinearLayout
@@ -65,6 +71,12 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/btn_del"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sql_user_delete"/>
     </LinearLayout>
 
 </LinearLayout>

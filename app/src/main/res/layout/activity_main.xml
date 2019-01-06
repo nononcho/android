@@ -41,11 +41,18 @@
             android:text="@string/title_imageview"/>
         
         <Button
-            android:id="@+id/btn_sqlite"
+        android:id="@+id/btn_sqlite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="btn_Calc"
+        android:text="@string/title_sql"/>
+
+        <Button
+            android:id="@+id/btn_drawerMenu"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:onClick="btn_Calc"
-            android:text="@string/title_sql"/>
+            android:text="@string/title_drawer_menu"/>
     </LinearLayout>
 
 </RelativeLayout>

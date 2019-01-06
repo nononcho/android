@@ -11,7 +11,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name="com.example.administrator.myapplication.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -21,12 +21,16 @@
         <activity android:name=".SimpleCalcActivity" />
         <activity android:name=".join.JoinActivity" />
         <activity android:name=".join.JoinResultActivity" />
-        <activity android:name=".AjaxListActivity" />
+        <activity android:name=".retrofit.AjaxListActivity" />
         <activity android:name=".ImageViewActivity" />
         <activity android:name=".ImageListActivity" />
-        <activity android:name=".SqlActivity" />
-        <activity android:name=".SqlListActivity"></activity>
-        <activity android:name=".SqlModActivity" />
+        <activity android:name=".sql.SqlActivity" />
+        <activity android:name=".sql.SqlListActivity" />
+        <activity android:name=".sql.SqlModActivity" />
+        <activity
+            android:name=".drawer.DrawerMenuActivity"
+            android:label="@string/title_activity_drawer_menu"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

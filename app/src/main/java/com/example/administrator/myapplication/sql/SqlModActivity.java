@@ -1,4 +1,4 @@
-package com.example.administrator.myapplication;
+package com.example.administrator.myapplication.sql;
 
 import android.content.ContentValues;
 import android.content.Intent;
@@ -9,10 +9,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.EditText;
 
-import com.example.administrator.myapplication.sql.UserDbHelper;
-import com.example.administrator.myapplication.sql.UserEntry;
-
-import org.w3c.dom.DOMStringList;
+import com.example.administrator.myapplication.R;
 
 public class SqlModActivity extends AppCompatActivity {
 

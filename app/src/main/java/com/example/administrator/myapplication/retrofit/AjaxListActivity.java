@@ -1,7 +1,6 @@
-package com.example.administrator.myapplication;
+package com.example.administrator.myapplication.retrofit;
 
 import android.content.Context;
-import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -12,10 +11,9 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
 
+import com.example.administrator.myapplication.R;
 import com.example.administrator.myapplication.model.BitcoinListVO;
 import com.example.administrator.myapplication.model.BitcoinVO;
-import com.example.administrator.myapplication.retrofit.APIClient;
-import com.example.administrator.myapplication.retrofit.BitcoinService;
 
 import java.util.ArrayList;
 import java.util.List;

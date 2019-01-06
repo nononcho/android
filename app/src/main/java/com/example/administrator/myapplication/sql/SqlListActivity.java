@@ -1,4 +1,4 @@
-package com.example.administrator.myapplication;
+package com.example.administrator.myapplication.sql;
 
 import android.content.Context;
 import android.content.Intent;
@@ -16,9 +16,8 @@ import android.widget.Button;
 import android.widget.ListView;
 import android.widget.TextView;
 
+import com.example.administrator.myapplication.R;
 import com.example.administrator.myapplication.model.UserVO;
-import com.example.administrator.myapplication.sql.UserDbHelper;
-import com.example.administrator.myapplication.sql.UserEntry;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -59,9 +58,12 @@ public class SqlListActivity extends AppCompatActivity {
 
         listview = findViewById(R.id.listView); //id값이 listView를 찾는 방법은 위 코드  setContentView(R.layout.activity_sql_list);에서 activity_sql_list로 연결했기때문
         listview.setAdapter(adapter);
+    }
 
+    @Override
+    protected void onStart() {
+        super.onStart();
         getData();
-
     }
 
     private void getData() {

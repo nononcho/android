@@ -6,7 +6,10 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import com.example.administrator.myapplication.drawer.DrawerMenuActivity;
 import com.example.administrator.myapplication.join.JoinActivity;
+import com.example.administrator.myapplication.retrofit.AjaxListActivity;
+import com.example.administrator.myapplication.sql.SqlActivity;
 
 public class MainActivity extends AppCompatActivity {
     Button btn_Calc;
@@ -43,6 +46,9 @@ public class MainActivity extends AppCompatActivity {
                 break;
             case R.id.btn_sqlite:
                 intent = new Intent(MainActivity.this, SqlActivity.class);
+                break;
+            case R.id.btn_drawerMenu:
+                intent = new Intent(MainActivity.this, DrawerMenuActivity.class);
                 break;
         }
 
